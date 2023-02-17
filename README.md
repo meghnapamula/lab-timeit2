@@ -74,7 +74,7 @@ measure the runtime and enter it into the table.
 |                | `sequential_search_itr`   | `binary_search_rec`   |
 | -------------- | ------------------------- | --------------------- | 
 | `n=2**0`       |  0.152 usec per loop                         |0.706 usec per loop                  |
-| `n=2**1`       | 0.178 usec per loop                          |                       |
+| `n=2**1`       | 0.178 usec per loop                          |1.08 usec per loop                       |
 | `n=2**2`       | 0.237 usec per loop                          |1.21 usec per loop                   |
 | `n=2**3`       | 0.348 usec per loop                          |1.07 usec per loop                  |
 | `n=2**4`       | 0.485 usec per loop                          |1.21 usec per loop                  |
